@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --font-family-primary: 'Lexend Deca', sans-serif;
+    --font-size-normal: 16px;
+
+    --primary-color: hsl(171, 66%, 44%);
+    --secondary-color: hsl(233, 100%, 69%);
+}
+
+
+
+
+html {
+    font-size: 100%;
+}
+
+
+body {
+    font-size: var(--font-size-normal);
+    font-family: var(--font-family-primary);
+
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/bg-header-desktop.png"), linear-gradient(to bottom, transparent 0, #fff 30%);
+}
+
+.header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.header_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.header_img>img {
+    width: 100%;
+    height: 100%
+}
+
+.nav {
+
+    width: 500px;
+}
+
+
+
+.nav_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    justify-content: space-between;
+    /* gap: 70px; */
+}
+
+.nav_li a {
+
+    color: var(--primary-color);
+    font-size: var(--font-size-normal);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.hero_img {
+    margin: 40px auto;
+    width: 100px
+}
+
+.hero_img>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.width_80 {
+    width: 50%;
+    margin: auto;
+}
+
+
+.section_1 {
+    margin-bottom: 150px;
+
+}
+
+.section_container {
+    text-align: center;
+    font-family: var(--font-family-primary);
+}
+
+
+.section_container p {
+    margin: 30px 0;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.section_container h1 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.section_container h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+.btns {
+    border: none;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 200px;
+    font-weight: 400;
+    font-family: var(--font-family-primary);
+}
+
+
+.btns:first-child {
+    margin-right: 30px;
+}
+
+.btns-1 {
+    box-shadow: 1px 1px 2px var(--primary-color);
+
+    background-color: var(--primary-color);
+}
+
+.btns-2 {
+    box-shadow: 1px 1px 2px var(--secondary-color);
+
+    background-color: var(--secondary-color);
+}
